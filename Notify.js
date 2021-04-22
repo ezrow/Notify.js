@@ -32,7 +32,7 @@ Notify = function(text, callback, close_callback, style) {
 	$(html).hover(function(){
 		clearInterval(timer);
 	}, function(){
-		timer = setInterval(remove_notice, time);
+		//timer = setInterval(remove_notice, time);
 	});
 	
 	html.on('click', function () {
